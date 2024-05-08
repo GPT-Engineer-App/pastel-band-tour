@@ -18,18 +18,18 @@ const Index = () => {
       </Box>
 
       {/* Main Section */}
-      <Box position="relative" p={8}>
-        <Image src="/tour1.jpg" alt="Tour Image" boxSize="300px" position="absolute" top="0" left="50%" transform="translateX(-50%)" sx={{
+      <Box position="relative" pt={16}>
+        <Image src="/tour1.jpg" alt="Tour Image" boxSize="300px" position="absolute" top="10%" left="50%" transform="translateX(-50%)" sx={{
           '@media screen and (max-width: 600px)': {
             boxSize: '150px'
           }
         }} />
-        <Image src="/tour2.jpg" alt="Tour Image" boxSize="200px" position="absolute" bottom="0" left="0" sx={{
+        <Image src="/tour2.jpg" alt="Tour Image" boxSize="200px" position="absolute" bottom="10%" left="0" sx={{
           '@media screen and (max-width: 600px)': {
             boxSize: '150px'
           }
         }} />
-        <Image src="/tour3.jpg" alt="Tour Image" boxSize="250px" position="absolute" bottom="0" right="0" sx={{
+        <Image src="/tour3.jpg" alt="Tour Image" boxSize="250px" position="absolute" bottom="10%" right="0" sx={{
           '@media screen and (max-width: 600px)': {
             boxSize: '150px'
           }
